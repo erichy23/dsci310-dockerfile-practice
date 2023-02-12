@@ -1,7 +1,5 @@
 FROM rocker/rstudio:4.1.3
 
-RUN whoami
-RUN pwd
 RUN ls -alh
 
 WORKDIR /home/rstudio
